@@ -1518,3 +1518,189 @@ div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"] > a {
     text-align: center !important;
   }
 }
+
+/* Password changes */
+
+table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] [id*="_lblResetPasswordTitle"] {
+  line-height: normal;
+  margin: 0;
+  font-family: "FilsonProBook",Helvetica,sans-serif;
+  font-weight: 500;
+  color: #030303;
+  font-size: 22px;
+  padding: 50px 0 20px;
+}
+
+table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] [id*="_lblResetPasswordCaption"] {
+  margin-bottom: 1em;
+  margin-top: 1rem;
+  display: block;
+}
+
+table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] tr td.BBFieldCaption {
+  padding-top: 10px;
+}
+
+[id*="_lblResetPasswordSuccess"] {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 5px;
+  color: white;
+  background: #01b18a;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+}
+
+@media (min-width: 768px) {
+  table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] {
+    display: block;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+  table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] tr {
+    display: block;
+    max-width: 600px;
+  }
+  table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] tr td {
+    width: 50%;
+    padding-bottom: 13px;
+  }
+  table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] tr td.BBFormButtonCell {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    position: relative;
+    margin-top: 20px;
+  }
+  table.BBFormTable.LoginFormTable [id$="_tbdResetPassword"] tr td input[type="button"] {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    right: 0;
+    position: absolute;
+  }
+
+  table.BBFormTable.LoginFormTable [id*="_tbdForgotPWDUserName"] {
+    display: block;
+  }
+
+  table.BBFormTable.LoginFormTable [id*="_tbdForgotPWDUserName"] tr {
+    display: block;
+    max-width: 600px;
+  }
+
+  table.BBFormTable.LoginFormTable [id*="_tbdForgotPWDUserName"] tr td.BBFieldControlCell {
+    width: 100%;
+  }
+
+  table.BBFormTable.LoginFormTable [id*="_tbdForgotPWDUserName"] tr td.BBFormButtonCell {
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
+  table.BBFormTable.LoginFormTable [id*="_tbdForgotPWDUserName"] tr td input[type="button"] {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    right: 0;
+    position: absolute;
+  }
+  
+  [id*="_lblResetPasswordSuccess"] {
+    margin-top: 50px;
+  }
+}
+
+/* SGS changes */
+
+.modal-Dialog div.alert.alert-danger {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.MS_background_footer .col-sm-5.col-xs-12 ul.social {
+  float: right;
+  text-align: right;
+}
+
+div[id$="PaymentPartFormContainer"] div[id$="CartGrid_topLinkBar"]>a {
+  border-color: #ccc;
+}
+
+.MS_background_header {
+  padding: 0px;
+}
+
+.MS_background_header>.container {
+  padding: 20px 10px;
+}
+
+.menu-mobile-button:focus {
+  outline: none;
+}
+
+.MS_background_header #mobile-nav #mobile-menu-buttons.signedin {
+  display: block;
+}
+
+.MS_background_header #mobile-nav #mobile-menu-buttons.signedin>div {
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+}
+
+.MS_background_header #mobile-nav #mobile-menu-buttons.signedin>a {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+  #popuploginformcontainer,
+  #popuploginregister {
+      display: table-cell !important;
+      float: none !important;
+  }
+
+  .MS_background_footer .col-sm-5.col-xs-12 {
+      margin-top: 30px;
+  }
+
+  .MS_background_header #nav {
+      white-space: normal;
+  }
+
+  header [id*="pnlFooterText"]>div {
+      width: 60%;
+  }
+
+  header [id*="pnlFooterText"]>div:first-child {
+      width: 40%;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .newLogin {
+      top: 35px !important;
+  }
+
+  .site-footer ul.social {
+      width: 100%;
+      text-align: center !important;
+  }
+
+
+  .MS_background_header #mobile-nav #mobile-menu-section {
+      padding: 10px;
+  }
+
+  .MS_background_header #mobile-nav #mobile-menu-section>.col-sm-12 {
+      padding: 0px;
+  }
+}
